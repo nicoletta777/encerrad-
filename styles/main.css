@@ -81,3 +81,16 @@ body {
   background: url('../img/noise.png');
   opacity: 0.05;
 }
+const frases = [
+  "No deberías estar aquí",
+  "Esto ya pasó",
+  "Despierta",
+  "No hay salida"
+];
+
+setInterval(() => {
+  const p = document.querySelector(".subtitle");
+  if (p) {
+    p.textContent = frases[Math.floor(Math.random() * frases.length)];
+  }
+}, 4000);
