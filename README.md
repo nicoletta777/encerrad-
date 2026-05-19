@@ -1,1 +1,1 @@
-# encerrad-
+# encerrado paciente 23
